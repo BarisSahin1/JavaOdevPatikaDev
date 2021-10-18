@@ -31,7 +31,7 @@ public class RecursionAsalSayi {
         Scanner scanner = new Scanner(System.in);
 
         int number ;
-        System.out.println("Plase enter your number.");
+        System.out.println("Plase enter your number. ");
         number = scanner.nextInt();
         int result = primeNumber(number, number / 2);
 
